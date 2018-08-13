@@ -3,11 +3,8 @@
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="Mercaderia">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=192.168.30.189;Initial Catalog=eva</ConnectString>
-      </ConnectionProperties>
+    <DataSource Name="EvaMercaderia">
+      <DataSourceReference>Mercaderia</DataSourceReference>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>97d57be2-1ad0-4d6d-8f42-57467b49f7c5</rd:DataSourceID>
     </DataSource>
@@ -15,7 +12,7 @@
   <DataSets>
     <DataSet Name="Empresa">
       <Query>
-        <DataSourceName>Mercaderia</DataSourceName>
+        <DataSourceName>EvaMercaderia</DataSourceName>
         <CommandText>SELECT        nombre
 FROM            empresa</CommandText>
       </Query>
@@ -28,7 +25,7 @@ FROM            empresa</CommandText>
     </DataSet>
     <DataSet Name="VentasBono">
       <Query>
-        <DataSourceName>Mercaderia</DataSourceName>
+        <DataSourceName>EvaMercaderia</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="@FechaInicial">
             <Value>=Parameters!fechaInicial.Value</Value>
