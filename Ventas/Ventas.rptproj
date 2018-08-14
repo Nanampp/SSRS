@@ -52,6 +52,7 @@
     <DataSource Include="Mercaderia.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="AcumuladoDpto.rdl" />
     <Report Include="Exc_VentasConBono.rdl" />
     <Report Include="VentasPorArticulo.rdl" />
   </ItemGroup>
