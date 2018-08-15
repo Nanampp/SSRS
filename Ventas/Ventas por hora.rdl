@@ -242,7 +242,7 @@
                                                                         <FontFamily>Arial</FontFamily>
                                                                         <FontSize>9pt</FontSize>
                                                                         <FontWeight>Bold</FontWeight>
-                                                                        <Format>#,0</Format>
+                                                                        <Format>#,0;-#,0;'-'</Format>
                                                                         <Language>es-CO</Language>
                                                                       </Style>
                                                                     </TextRun>
@@ -259,6 +259,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -281,7 +282,7 @@
                                                                         <FontFamily>Arial</FontFamily>
                                                                         <FontSize>9pt</FontSize>
                                                                         <FontWeight>Bold</FontWeight>
-                                                                        <Format>#,0</Format>
+                                                                        <Format>#,0;-#,0;'-'</Format>
                                                                         <Language>es-CO</Language>
                                                                       </Style>
                                                                     </TextRun>
@@ -298,6 +299,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -337,6 +339,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -359,7 +362,7 @@
                                                                         <FontFamily>Arial</FontFamily>
                                                                         <FontSize>9pt</FontSize>
                                                                         <FontWeight>Bold</FontWeight>
-                                                                        <Format>#,0</Format>
+                                                                        <Format>#,0;-#,0;'-'</Format>
                                                                         <Language>es-CO</Language>
                                                                       </Style>
                                                                     </TextRun>
@@ -376,6 +379,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -415,6 +419,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -481,6 +486,7 @@
                                                                 <Style>Solid</Style>
                                                               </Border>
                                                               <BackgroundColor>LightGrey</BackgroundColor>
+                                                              <VerticalAlign>Middle</VerticalAlign>
                                                               <PaddingLeft>2pt</PaddingLeft>
                                                               <PaddingRight>2pt</PaddingRight>
                                                               <PaddingTop>2pt</PaddingTop>
@@ -561,6 +567,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -598,6 +605,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -635,6 +643,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -672,6 +681,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -709,6 +719,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -746,6 +757,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>LightGrey</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -787,6 +799,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>=IIF(rownumber(nothing) mod 2, "WHITE","LIGHTGRAY")</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -808,7 +821,7 @@
                                                                       <Style>
                                                                         <FontFamily>Arial</FontFamily>
                                                                         <FontSize>9pt</FontSize>
-                                                                        <Format>#,0</Format>
+                                                                        <Format>#,0;-#,0;'-'</Format>
                                                                         <Language>es-CO</Language>
                                                                       </Style>
                                                                     </TextRun>
@@ -825,6 +838,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>=IIF(rownumber(nothing) mod 2, "WHITE","LIGHTGRAY")</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -846,7 +860,7 @@
                                                                       <Style>
                                                                         <FontFamily>Arial</FontFamily>
                                                                         <FontSize>9pt</FontSize>
-                                                                        <Format>#,0</Format>
+                                                                        <Format>#,0;-#,0;'-'</Format>
                                                                         <Language>es-CO</Language>
                                                                       </Style>
                                                                     </TextRun>
@@ -863,6 +877,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>=IIF(rownumber(nothing) mod 2, "WHITE","LIGHTGRAY")</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -901,6 +916,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>=IIF(rownumber(nothing) mod 2, "WHITE","LIGHTGRAY")</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -922,7 +938,7 @@
                                                                       <Style>
                                                                         <FontFamily>Arial</FontFamily>
                                                                         <FontSize>9pt</FontSize>
-                                                                        <Format>#,0</Format>
+                                                                        <Format>#,0;-#,0;'-'</Format>
                                                                         <Language>es-CO</Language>
                                                                       </Style>
                                                                     </TextRun>
@@ -939,6 +955,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>=IIF(rownumber(nothing) mod 2, "WHITE","LIGHTGRAY")</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -977,6 +994,7 @@
                                                                   <Style>Solid</Style>
                                                                 </Border>
                                                                 <BackgroundColor>=IIF(rownumber(nothing) mod 2, "WHITE","LIGHTGRAY")</BackgroundColor>
+                                                                <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>2pt</PaddingLeft>
                                                                 <PaddingRight>2pt</PaddingRight>
                                                                 <PaddingTop>2pt</PaddingTop>
@@ -1214,7 +1232,7 @@
                                                       <FontFamily>Arial</FontFamily>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>#,0</Format>
+                                                      <Format>#,0;-#,0;'-'</Format>
                                                       <Language>es-CO</Language>
                                                     </Style>
                                                   </TextRun>
@@ -1231,6 +1249,7 @@
                                                 <Style>Solid</Style>
                                               </Border>
                                               <BackgroundColor>LightGrey</BackgroundColor>
+                                              <VerticalAlign>Middle</VerticalAlign>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -1253,7 +1272,7 @@
                                                       <FontFamily>Arial</FontFamily>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>#,0</Format>
+                                                      <Format>#,0;-#,0;'-'</Format>
                                                       <Language>es-CO</Language>
                                                     </Style>
                                                   </TextRun>
@@ -1270,6 +1289,7 @@
                                                 <Style>Solid</Style>
                                               </Border>
                                               <BackgroundColor>LightGrey</BackgroundColor>
+                                              <VerticalAlign>Middle</VerticalAlign>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -1319,6 +1339,7 @@
                                                 <Style>Solid</Style>
                                               </Border>
                                               <BackgroundColor>LightGrey</BackgroundColor>
+                                              <VerticalAlign>Middle</VerticalAlign>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -1341,7 +1362,7 @@
                                                       <FontFamily>Arial</FontFamily>
                                                       <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
-                                                      <Format>#,0</Format>
+                                                      <Format>#,0;-#,0;'-'</Format>
                                                       <Language>es-CO</Language>
                                                     </Style>
                                                   </TextRun>
@@ -1358,6 +1379,7 @@
                                                 <Style>Solid</Style>
                                               </Border>
                                               <BackgroundColor>LightGrey</BackgroundColor>
+                                              <VerticalAlign>Middle</VerticalAlign>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -1407,6 +1429,7 @@
                                                 <Style>Solid</Style>
                                               </Border>
                                               <BackgroundColor>LightGrey</BackgroundColor>
+                                              <VerticalAlign>Middle</VerticalAlign>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -1456,13 +1479,12 @@
                                                     <FontFamily>Arial</FontFamily>
                                                     <FontSize>9pt</FontSize>
                                                     <FontWeight>Bold</FontWeight>
-                                                    <Format>d</Format>
                                                     <Language>es-CO</Language>
                                                   </Style>
                                                 </TextRun>
                                               </TextRuns>
                                               <Style>
-                                                <TextAlign>Right</TextAlign>
+                                                <TextAlign>Left</TextAlign>
                                               </Style>
                                             </Paragraph>
                                           </Paragraphs>
@@ -1473,6 +1495,7 @@
                                               <Style>Solid</Style>
                                             </Border>
                                             <BackgroundColor>LightGrey</BackgroundColor>
+                                            <VerticalAlign>Middle</VerticalAlign>
                                             <PaddingLeft>2pt</PaddingLeft>
                                             <PaddingRight>2pt</PaddingRight>
                                             <PaddingTop>2pt</PaddingTop>
@@ -1540,7 +1563,7 @@
         <Height>5.7cm</Height>
         <Style />
       </Body>
-      <Width>18.46cm</Width>
+      <Width>18.46001cm</Width>
       <Page>
         <PageHeader>
           <Height>3cm</Height>
