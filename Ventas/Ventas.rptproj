@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="AcumuladoDpto.rdl" />
+    <Report Include="DevolucionesPorArticulo.rdl" />
     <Report Include="Exc_VentasConBono.rdl" />
     <Report Include="Ventas por Hora.rdl" />
     <Report Include="VentasPorArticulo.rdl" />
