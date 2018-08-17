@@ -57,6 +57,7 @@
     <Report Include="DevolucionesPorArticulo.rdl" />
     <Report Include="Exc_VentasConBono.rdl" />
     <Report Include="Ventas por Hora.rdl" />
+    <Report Include="VentasClientes.rdl" />
     <Report Include="VentasPorArticulo.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
