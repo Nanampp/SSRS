@@ -128,22 +128,22 @@
                   <Width>2cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>3.5cm</Width>
+                  <Width>4cm</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>1.5cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>4.5cm</Width>
+                  <Width>3cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.66cm</Width>
+                  <Width>2.66cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>3.5cm</Width>
+                  <Width>3.7cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>2.5cm</Width>
+                  <Width>2.3cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -434,7 +434,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -846,11 +846,12 @@
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
                                     <FontSize>9pt</FontSize>
+                                    <Format>#,0;-#,0;'-'</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -868,6 +869,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -981,7 +983,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
