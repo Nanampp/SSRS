@@ -54,6 +54,7 @@
   <ItemGroup>
     <Report Include="AcumuladoDpto.rdl" />
     <Report Include="Anulaciones.rdl" />
+    <Report Include="ContabilidadConsolidada.rdl" />
     <Report Include="DevolucionesPorArticulo.rdl" />
     <Report Include="Exc_VentasConBono.rdl" />
     <Report Include="Impuesto Diario.rdl" />
