@@ -1080,7 +1080,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1245,7 +1244,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(IIF((Fields!cod_tipo_transac.Value = "0"), Fields!pstv.Value - Fields!ngtv.Value, Nothing))</Value>
+                                  <Value>=Sum(IIF((Fields!cod_tipo_transac.Value = "0") Or (Fields!cod_tipo_transac.Value = "20"), Fields!pstv.Value - Fields!ngtv.Value, Nothing))</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1272,6 +1271,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
