@@ -1,7 +1,7 @@
 -- =============================================
 -- Author:		Adriana Palacio P.
 -- Create date: 23/08/2018
--- Description: El reporte visualiza el valor total de la venta bruta, venta neta, préstamos, recogidas, anulaciones, cancelaciones y descuentos para un rango de fechas específico y para un conjunto de localidades dadas.
+-- Description: El reporte visualiza por localidad, la cantidad de clientes y el valor de la venta bruta, la venta neta, las anulaciones, las cancelaciones, los préstamos, las recogidas, y descuentos para un rango de fechas específico y para un conjunto de localidades dadas.
 -- =============================================
 CREATE PROCEDURE [dbo].[Proc_ContabilidadConsolidada]  
 	-- Add the parameters for the stored procedure here
