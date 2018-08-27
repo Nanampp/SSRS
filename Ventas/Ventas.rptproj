@@ -59,6 +59,7 @@
     <Report Include="DevolucionesPorArticulo.rdl" />
     <Report Include="Exc_VentasConBono.rdl" />
     <Report Include="Impuesto Diario.rdl" />
+    <Report Include="Participacion Articulo.rdl" />
     <Report Include="Venta Diaria.rdl" />
     <Report Include="Ventas por Hora.rdl" />
     <Report Include="Ventas por Usuario.rdl" />
