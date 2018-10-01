@@ -7,12 +7,11 @@ SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
 -- Author:		Adriana Palacio P.
--- Create date: 03/08/2018
--- Description:	Obtiene las localidades
+-- Create date: 28/09/2018
+-- Description:	Obtiene las ciudades
 -- =============================================
-ALTER PROCEDURE Proc_Localidades 
+CREATE PROCEDURE Proc_Ciudades
 	-- Add the parameters for the stored procedure here
-	@Ciudad varchar(max)
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -20,12 +19,7 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	select	l.cod_localidad Codigo_Localidad, 
-	l.cod_localidad + ' - ' + l.descrip CodLocalidad
-	from dbo.localidad l 
-	LEFT JOIN ciudad c ON c.id_ciudad = l.id_ciudad
-	where tipo = 'LOCAL' and cerrada = 0 and cod_localidad <> 'C01'
-		AND @Ciudad LIKE ('%' + c.id_ciudad + '%')
+	SELECT  id_ciudad, descrip
+	FROM ciudad
 END
 GO
-

@@ -26,6 +26,11 @@
     <DataSet Name="Localidades">
       <Query>
         <DataSourceName>Mercaderia</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@Ciudad">
+            <Value>=Join(Parameters!Ciudad.Value,", ")</Value>
+          </QueryParameter>
+        </QueryParameters>
         <CommandType>StoredProcedure</CommandType>
         <CommandText>Proc_Localidades</CommandText>
       </Query>
@@ -105,6 +110,23 @@
         <Field Name="nro">
           <DataField>nro</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="Ciudad">
+      <Query>
+        <DataSourceName>Mercaderia</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>Proc_Ciudades</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="id_ciudad">
+          <DataField>id_ciudad</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="descrip">
+          <DataField>descrip</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
@@ -1271,7 +1293,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1996,8 +2017,32 @@
       <DataType>DateTime</DataType>
       <Prompt>Fecha Final</Prompt>
     </ReportParameter>
+    <ReportParameter Name="Ciudad">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>Ciudad</DataSetName>
+          <ValueField>id_ciudad</ValueField>
+        </DataSetReference>
+      </DefaultValue>
+      <Prompt>Ciudad</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>Ciudad</DataSetName>
+          <ValueField>id_ciudad</ValueField>
+          <LabelField>descrip</LabelField>
+        </DataSetReference>
+      </ValidValues>
+      <MultiValue>true</MultiValue>
+    </ReportParameter>
     <ReportParameter Name="Localidades">
       <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>Localidades</DataSetName>
+          <ValueField>Codigo_Localidad</ValueField>
+        </DataSetReference>
+      </DefaultValue>
       <Prompt>Localidades</Prompt>
       <ValidValues>
         <DataSetReference>
@@ -2011,8 +2056,8 @@
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
-      <NumberOfColumns>3</NumberOfColumns>
-      <NumberOfRows>1</NumberOfRows>
+      <NumberOfColumns>2</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -2025,9 +2070,14 @@
           <ParameterName>fechaFinal</ParameterName>
         </CellDefinition>
         <CellDefinition>
-          <ColumnIndex>2</ColumnIndex>
-          <RowIndex>0</RowIndex>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
           <ParameterName>Localidades</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Ciudad</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
