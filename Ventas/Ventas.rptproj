@@ -54,6 +54,7 @@
   <ItemGroup>
     <Report Include="AcumuladoDpto.rdl" />
     <Report Include="Anulaciones.rdl" />
+    <Report Include="Cancelaciones por Usuario.rdl" />
     <Report Include="Cierre de Caja.rdl" />
     <Report Include="ContabilidadConsolidada.rdl" />
     <Report Include="DevolucionesPorArticulo.rdl" />
